@@ -1,0 +1,122 @@
+
+header {
+    
+    background-image: url("../images/white2.jpg");
+    background-repeat: no-repeat;
+    height: 100px;
+    padding: 15px 0 0 0;
+    margin: 10px 0px 50px 0px;
+    border: 1px solid rgb(0, 0, 0);
+    
+
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 40px;
+    color: rgb(255, 253, 253);
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 400px;
+    padding: 3px;
+    margin:  auto 0;
+    border-radius: 20px;
+    position: relative;
+    top: 14px;
+
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: rgb(147, 20, 220, 0.2);
+    width: 200px;
+    padding: 5px;
+    margin:  40px 0 10px 0;
+    border-radius: 15px;
+
+}
+
+.model_text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 900px;
+    margin-left: 10px;
+    line-height: 1.4;
+}
+
+table {
+    width: 900px;
+    border: 1px solid rgb(147, 20, 220);
+    margin: 0 0 150px 0;
+}
+
+thead {
+    background-color: rgb(147, 20, 220);
+}
+
+tbody {
+    background-color: cornflowerblue;
+}
+
+tfoot {
+    background-color: darkorange;
+}
+
+.t_center {
+    text-align: center;
+}
+
+th, td {
+    border: 2px solid antiquewhite;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.box_container {
+    width: 70%;
+}
+
+.box_margin {
+    width: 100%;
+    padding: 5px 20px 55px 20px;
+    background-color: rgb(190, 190, 190);
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+}
+
+.box_border {
+    width: 90%;
+    padding: 5px 20px 55px 20px;
+    background-color: rgb(37, 143, 14);
+    margin: 0 auto;
+}
+
+.box_padding {
+    width: 80%;
+    padding: 5px 20px 55px 20px;
+    background-color: rgb(190, 190, 190);
+    margin: 0 auto;
+}
+
+.box_content {
+    width: 70%;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    position: relative;
+    bottom: 50%;
+    vertical-align: text-bottom;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: lightslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    font-size: 18px;
+
+}
