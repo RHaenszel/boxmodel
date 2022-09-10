@@ -108,6 +108,38 @@ th, td {
     vertical-align: text-bottom;
 }
 
+
+
+.button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(0, 100, 0);
+    box-shadow: 5px 5px rgb(0, 70, 0);
+    width: 60px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+  }
+   
+  .button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 120, 0);
+    
+  }
+   
+  .button:active {
+    position: relative;
+    top: 13px;
+    color: black;
+    box-shadow: 3px 3px rgb(0, 50, 0);
+  }
+
+
+
 footer {
     position: fixed;
     bottom: 0;
@@ -115,8 +147,16 @@ footer {
     z-index: 2;
     width: 100%;
     background-color: lightslategray;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 20px;
-    font-size: 18px;
+    
 
+}
+
+footer p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+#text_next_to_button {
+    display: inline-block;
 }
